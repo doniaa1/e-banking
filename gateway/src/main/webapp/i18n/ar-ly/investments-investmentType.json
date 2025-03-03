@@ -1,0 +1,9 @@
+{
+  "gatewayApp": {
+    "InvestmentType": {
+      "null": "",
+      "REAL_ESTATE": "REAL_ESTATE",
+      "BONDS": "BONDS"
+    }
+  }
+}

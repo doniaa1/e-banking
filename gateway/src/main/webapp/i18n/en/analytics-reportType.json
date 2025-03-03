@@ -1,0 +1,10 @@
+{
+  "gatewayApp": {
+    "ReportType": {
+      "null": "",
+      "PAYMENT": "PAYMENT",
+      "INVESTMENT": "INVESTMENT",
+      "ACCOUNTS": "ACCOUNTS"
+    }
+  }
+}

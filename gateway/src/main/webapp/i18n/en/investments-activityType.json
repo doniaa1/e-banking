@@ -1,0 +1,11 @@
+{
+  "gatewayApp": {
+    "ActivityType": {
+      "null": "",
+      "PROJECT": "PROJECT",
+      "INVESTMENT": "INVESTMENT",
+      "financialDetails": "Financial Details",
+      "additionalDetails": "Additional Details"
+    }
+  }
+}

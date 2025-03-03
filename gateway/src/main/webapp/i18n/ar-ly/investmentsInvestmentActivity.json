@@ -1,0 +1,44 @@
+{
+  "gatewayApp": {
+    "investmentsInvestmentActivity": {
+      "home": {
+        "title": "Investment Activities",
+        "refreshListLabel": "تحديث القائمة",
+        "createLabel": "إنشاء Investment Activity جديد",
+        "createOrEditLabel": "إنشاء أو تعديل Investment Activity",
+        "notFound": "لم يتم العثور على Investment Activities"
+      },
+      "delete": {
+        "question": "هل أنت متأكد أنك تريد حذف Investment Activity {{ id }}؟"
+      },
+      "detail": {
+        "title": "Investment Activity"
+      },
+      "id": "ID",
+      "investmentType": "Investment Type",
+      "activityType": "Activity Type",
+      "projectName": "Project Name",
+      "description": "Description",
+      "location": "Location",
+      "targetAmount": "Target Amount",
+      "currentAmount": "Current Amount",
+      "bondIssuer": "Bond Issuer",
+      "activityDate": "Activity Date",
+      "activityAmount": "Activity Amount",
+      "status": "Status",
+      "riskLevel": "Risk Level",
+      "login": "Login",
+      "createdBy": "Created By",
+      "createdDate": "Created Date",
+      "lastModifiedBy": "Last Modified By",
+      "lastModifiedDate": "Last Modified Date"
+    }
+  },
+  "investmentsApp": {
+    "investmentsInvestmentActivity": {
+      "created": "Investment Activity جديد تم إنشاؤه بالمعرف {{ param }}",
+      "updated": "Investment Activity تم تحديثه بالمعرف {{ param }}",
+      "deleted": "Investment Activity تم حذفه بالمعرف {{ param }}"
+    }
+  }
+}

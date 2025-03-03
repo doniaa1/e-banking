@@ -1,0 +1,35 @@
+{
+  "gatewayApp": {
+    "analyticsDataCollection": {
+      "home": {
+        "title": "Data Collections",
+        "refreshListLabel": "تحديث القائمة",
+        "createLabel": "إنشاء Data Collection جديد",
+        "createOrEditLabel": "إنشاء أو تعديل Data Collection",
+        "notFound": "لم يتم العثور على Data Collections"
+      },
+      "delete": {
+        "question": "هل أنت متأكد أنك تريد حذف Data Collection {{ id }}؟"
+      },
+      "detail": {
+        "title": "Data Collection"
+      },
+      "id": "ID",
+      "login": "Login",
+      "name": "Name",
+      "source": "Source",
+      "collectedAt": "Collected At",
+      "dataType": "Data Type",
+      "status": "Status",
+      "description": "Description",
+      "analysisReport": "Analysis Report"
+    }
+  },
+  "analyticsApp": {
+    "analyticsDataCollection": {
+      "created": "Data Collection جديد تم إنشاؤه بالمعرف {{ param }}",
+      "updated": "Data Collection تم تحديثه بالمعرف {{ param }}",
+      "deleted": "Data Collection تم حذفه بالمعرف {{ param }}"
+    }
+  }
+}

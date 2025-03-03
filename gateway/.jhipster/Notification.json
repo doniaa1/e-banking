@@ -1,0 +1,63 @@
+{
+  "annotations": {
+    "changelogDate": "20241207161404"
+  },
+  "clientRootFolder": "notifications",
+  "databaseType": "sql",
+  "fields": [
+    {
+      "fieldName": "login",
+      "fieldType": "String",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "title",
+      "fieldType": "String",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "message",
+      "fieldType": "TextBlob",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "type",
+      "fieldType": "NotificationType",
+      "fieldValidateRules": ["required"],
+      "fieldValues": "ALERT,MESSAGE"
+    },
+    {
+      "fieldName": "channel",
+      "fieldType": "NotificationChannel",
+      "fieldValidateRules": ["required"],
+      "fieldValues": "EMAIL,IN_WEPAPP"
+    },
+    {
+      "fieldName": "sentAt",
+      "fieldType": "Instant",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "isRead",
+      "fieldType": "Boolean",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "createdAt",
+      "fieldType": "Instant",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "readAt",
+      "fieldType": "Instant"
+    }
+  ],
+  "microserviceName": "notifications",
+  "microservicePath": "D:\\ebank project\\notifications",
+  "name": "Notification",
+  "pagination": "pagination",
+  "readOnly": false,
+  "relationships": [],
+  "searchEngine": "no",
+  "service": "no"
+}

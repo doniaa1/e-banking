@@ -1,0 +1,17 @@
+.footer {
+  background-color: #004080; /* لون الفوتر */
+  color: #ffffff; /* لون النص */
+  padding: 20px 20px;
+  border-radius: 12px; /* حواف دائرية */
+  margin-top: 20px; /* مسافة من الأعلى */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* تظليل خفيف */
+  font-size: 0.9rem; /* حجم النص */
+
+  .footer-container {
+    text-align: center; /* محاذاة النص في الوسط */
+  }
+
+  .footer-text {
+    margin: 0; /* إزالة أي هوامش افتراضية */
+  }
+}

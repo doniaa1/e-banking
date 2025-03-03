@@ -1,0 +1,67 @@
+.login-page {
+  display: flex;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+
+  .login-image {
+    flex: 1;
+    background-color: #004080; /* لون الخلفية الأزرق */
+    position: relative;
+    overflow: hidden;
+    border-radius: 20px; //
+
+    .logo {
+      position: absolute;
+      top: 30%;
+      left: -300px; /* يبدأ من خارج الشاشة */
+      transform: translateY(-50%);
+      transition: left 1s ease-in-out; /* حركة الشعار إلى المنتصف */
+
+
+    }
+  }
+
+  .login-form {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+
+    div {
+      width: 80%;
+      background: #ffffff;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+
+      h1 {
+        font-size: 2rem;
+        font-weight: bold;
+        text-align: center;
+        margin-bottom: 20px;
+        color: #004085;
+      }
+
+      .btn {
+        width: 100%;
+        font-size: 1rem;
+        font-weight: bold;
+      }
+
+      .additional-links {
+        margin-top: 20px;
+
+        .reset-link {
+          color: #007bff;
+
+          &:hover {
+            text-decoration: underline;
+          }
+        }
+      }
+    }
+  }
+}
+

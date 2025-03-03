@@ -1,0 +1,273 @@
+{
+  "global": {
+    "title": "Zenith",
+    "subtitle": "Experience a new era of digital banking. Secure, reliable, and tailored for you.",
+    "browsehappy": "You are using an <strong>outdated</strong> browser. Please <a href=\"http://browsehappy.com/?locale=en\">upgrade your browser</a> to improve your experience.",
+    "menu": {
+      "logged": {
+        "message": "You are logged in as user \"{{username}}\"."
+      },
+      "title": "Welcome to Zenith EBank!",
+      "subtitle": "Experience a new era of digital banking Secure, reliable, and tailored for you.",
+      "securityPolicy": "Security Policy",
+      "home": "Home",
+      "jhipster-needle-menu-add-element": "JHipster will add additional menu entries here (do not translate!)",
+      "contact": {
+        "title": "GET IN TOUCH",
+        "description": "Have questions or need help? Reach out to us through any of the following ways or fill out the form below.",
+        "infoTitle": "Contact Information",
+        "email": "Email:",
+        "phone": "Phone:",
+        "address": "Address:",
+        "formTitle": "Send Us a Message",
+        "formName": "Name",
+        "formEmail": "Email",
+        "formMessage": "Message",
+        "formButton": "Send Message"
+      },
+      "vision": {
+        "title": "Our Vision",
+        "text": "To revolutionize the banking experience by providing secure, efficient, and innovative financial solutions that empower individuals and businesses."
+      },
+      "entities": {
+        "main": "Our Services",
+        "jhipster-needle-menu-add-entry": "JHipster will add additional entities here (do not translate!)",
+        "customersCustomer": "Customer",
+        "customersDocument": "Document",
+        "accountsBankAccount": "Bank Account",
+        "accountsLocaltransfer": "Localtransfer",
+        "accountsInternatonalTransfer": "Internatonal Transfer",
+        "paymentPayment": "Payment",
+        "paymentQrPayment": "QR Payment",
+        "paymentBillPayment": "Bill Payment",
+        "paymentCardPayment": "Card Payment",
+        "investmentsInvestmentActivity": "Investment Activity",
+        "analyticsDataCollection": "Data Collection",
+        "analyticsAnalysisReport": "Analysis Report",
+        "notificationsNotification": "Notification",
+        "accountsLocalTransfer": "Local Transfer",
+        "accountsInternationalTransfer": "International Transfer"
+      },
+      "services": {
+        "title": "Our Core Services",
+        "accountManagement": "Account Management",
+        "accountManagementDesc": "Easily manage your bank accounts, view transaction history, and check balances anytime.",
+        "securePayments": "Secure Payments",
+        "securePaymentsDesc": "Perform quick and secure payments to vendors, bills, or friends with just a few clicks.",
+        "globalTransfers": "Global Transfers",
+        "globalTransfersDesc": "Send and receive money globally with competitive exchange rates and no hidden fees.",
+        "creditCardManagement": "Credit Card Management",
+        "creditCardManagementDesc": "Monitor your credit card usage, pay bills, and request new cards with ease.",
+        "investmentManagement": "Investment Management",
+        "investmentManagementDesc": "Plan and manage your investments with expert tools and insights tailored for your financial growth.",
+        "financialAnalysis": "Financial Analysis",
+        "financialAnalysisDesc": "Analyze your financial data to make informed decisions about your investments."
+      },
+      "account": {
+        "main": "Account",
+        "settings": "Settings",
+        "password": "Password",
+        "sessions": "Sessions",
+        "login": "Sign in",
+        "logout": "Sign out",
+        "register": "Register"
+      },
+      "admin": {
+        "main": "Administration",
+        "gateway": "Gateway",
+        "userManagement": "User management",
+        "tracker": "User tracker",
+        "metrics": "Metrics",
+        "health": "Health",
+        "configuration": "Configuration",
+        "logs": "Logs",
+        "apidocs": "API",
+        "database": "Database",
+        "jhipster-needle-menu-add-admin-element": "JHipster will add additional menu entries here (do not translate!)"
+      },
+      "language": "Language"
+    },
+    "securityPolicy": {
+      "title": "Bank Security Policy",
+      "intro": "In our electronic banking project, we are committed to the highest security standards to protect customer data and ensure the safety of financial operations. This policy is designed to outline the measures we take to maintain a secure and reliable banking environment.",
+      "dataEncryption": {
+        "title": "1. Data Encryption",
+        "content": "We use the latest encryption technologies to secure data, including:",
+        "bullet1": "Encrypting all customer data during storage.",
+        "bullet2": "Protecting passwords with advanced encryption techniques.",
+        "bullet3": "Ensuring the safety of sensitive details related to payments and transactions."
+      },
+      "twoFactorAuth": {
+        "title": "2. Two-Factor Authentication (2FA)",
+        "content": "We provide two-factor authentication for all customers to enhance login security.",
+        "bullet1": "A verification code is sent to the customer's mobile device or email to confirm identity."
+      },
+      "fraudDetection": {
+        "title": "3. Fraud Detection and Analysis",
+        "content": "Our advanced systems monitor financial activity continuously to detect suspicious activities.",
+        "bullet1": "Immediate alerts are issued in case of suspicious transactions.",
+        "bullet2": "Advanced analytics identify suspicious patterns proactively to prevent fraud."
+      },
+      "jwt": {
+        "title": "4. Account and Transaction Protection Using JWT",
+        "content": "Banking operations are secured using JSON Web Tokens (JWT) for session authentication.",
+        "bullet1": "JWT prevents unauthorized access to customer data or banking services.",
+        "bullet2": "Authentication tokens are renewed periodically to maintain top security levels."
+      },
+      "digitalPayments": {
+        "title": "5. Security in Digital Payments",
+        "content": "All digital transactions are conducted through secure payment interfaces designed to verify payment validity before processing.",
+        "bullet1": "Fraud protection in payments through user identity verification."
+      },
+      "securityAudits": {
+        "title": "6. Continuous Security Audits",
+        "content": "We conduct regular audits on our system to ensure compliance with the latest security standards.",
+        "bullet1": "Banking platforms are continually updated to counter new cyber threats."
+      },
+      "customerDataProtection": {
+        "title": "7. Protecting Customer Personal Data",
+        "content": "Our systems are committed to protecting personal customer data such as addresses, phone numbers, and emails.",
+        "bullet1": "User access and permissions are determined based on their roles for additional protection."
+      },
+      "tips": {
+        "title": "8. Tips to Protect Your Accounts",
+        "bullet1": "Use strong and unique passwords for each account.",
+        "bullet2": "Avoid sharing your login credentials with others.",
+        "bullet3": "Regularly review your transactions and report any suspicious activity."
+      },
+      "support": {
+        "title": "9. Support and Assistance",
+        "content": "If you have any inquiries about your account security or suspect unauthorized activity, please contact us via:",
+        "email": "Email",
+        "phone": "Phone",
+        "available": "24/7 Customer Support"
+      }
+    },
+    "form": {
+      "username.label": "Username",
+      "username.placeholder": "Your username",
+      "currentpassword.label": "Current password",
+      "currentpassword.placeholder": "Current password",
+      "newpassword.label": "New password",
+      "newpassword.placeholder": "New password",
+      "confirmpassword.label": "New password confirmation",
+      "confirmpassword.placeholder": "Confirm the new password",
+      "email.label": "Email",
+      "email.placeholder": "Your email"
+    },
+    "messages": {
+      "info": {
+        "authenticated": {
+          "prefix": "If you want to ",
+          "link": "sign in",
+          "suffix": ", you can try the default accounts:<br/>- Administrator (login=\"admin\" and password=\"admin\") <br/>- User (login=\"user\" and password=\"user\")."
+        },
+        "register": {
+          "noaccount": "You don't have an account yet?",
+          "link": "Register a new account"
+        }
+      },
+      "error": {
+        "dontmatch": "The password and its confirmation do not match!"
+      },
+      "validate": {
+        "newpassword": {
+          "required": "Your password is required.",
+          "minlength": "Your password is required to be at least 4 characters.",
+          "maxlength": "Your password cannot be longer than 50 characters.",
+          "strength": "Password strength:"
+        },
+        "confirmpassword": {
+          "required": "Your confirmation password is required.",
+          "minlength": "Your confirmation password is required to be at least 4 characters.",
+          "maxlength": "Your confirmation password cannot be longer than 50 characters."
+        },
+        "email": {
+          "required": "Your email is required.",
+          "invalid": "Your email is invalid.",
+          "minlength": "Your email is required to be at least 5 characters.",
+          "maxlength": "Your email cannot be longer than 50 characters."
+        },
+        "phoneNumber": {
+          "required": "Phone number is required.",
+          "minlength": "Phone number must be at least 10 characters.",
+          "maxlength": "Phone number cannot be longer than 15 characters.",
+          "pattern": "Phone number must be numeric and between 10 and 15 characters."
+        }
+      }
+    },
+    "field": {
+      "id": "ID"
+    },
+    "ribbon": {
+      "dev": "Development"
+    },
+    "item-count": "Showing {{first}} - {{second}} of {{total}} items."
+  },
+  "entity": {
+    "action": {
+      "addblob": "Add blob",
+      "addimage": "Add image",
+      "back": "Back",
+      "cancel": "Cancel",
+      "delete": "Delete",
+      "edit": "Edit",
+      "open": "Open",
+      "save": "Save",
+      "view": "View",
+      "show": "Show {{otherEntity}}"
+    },
+    "detail": {
+      "field": "Field",
+      "value": "Value"
+    },
+    "delete": {
+      "title": "Confirm delete operation"
+    },
+    "validation": {
+      "required": "This field is required.",
+      "minlength": "This field is required to be at least {{ min }} characters.",
+      "maxlength": "This field cannot be longer than {{ max }} characters.",
+      "min": "This field should be at least {{ min }}.",
+      "max": "This field cannot be more than {{ max }}.",
+      "minbytes": "This field should be at least {{ min }} bytes.",
+      "maxbytes": "This field cannot be more than {{ max }} bytes.",
+      "pattern": "This field should follow pattern for {{ pattern }}.",
+      "number": "This field should be a number.",
+      "datetimelocal": "This field should be a date and time.",
+      "patternLogin": "This field can only contain letters, digits and e-mail addresses."
+    },
+    "filters": {
+      "set": "Following filters are set",
+      "clear": "Clear filter",
+      "clearAll": "Clear all filters"
+    }
+  },
+  "error": {
+    "internalServerError": "Internal server error",
+    "server.not.reachable": "Server not reachable",
+    "url.not.found": "Not found",
+    "NotNull": "Field {{ fieldName }} cannot be empty!",
+    "Size": "Field {{ fieldName }} does not meet min/max size requirements!",
+    "userexists": "Login name already used!",
+    "emailexists": "Email is already in use!",
+    "idexists": "A new {{ entityName }} cannot already have an ID",
+    "idnull": "Invalid ID",
+    "idinvalid": "Invalid ID",
+    "idnotfound": "ID cannot be found",
+    "file": {
+      "could.not.extract": "Could not extract file",
+      "not.image": "File was expected to be an image but was found to be \"{{ fileType }}\""
+    }
+  },
+  "footer": {
+    "rights": "All Rights Reserved."
+  },
+  "gatewayApp": {
+    "customersCustomer": {
+      "phoneNumberValidation": "Phone number must be between 10 and 15 digits and can include a '+' at the beginning.",
+      "motherNameValidation": "Mother's name must be between 2 and 100 characters.",
+      "addressLine1Validation": "Address Line 1 must not exceed 200 characters."
+    }
+  }
+}

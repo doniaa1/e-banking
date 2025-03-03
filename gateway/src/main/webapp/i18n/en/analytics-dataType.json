@@ -1,0 +1,9 @@
+{
+  "gatewayApp": {
+    "DataType": {
+      "null": "",
+      "TEXT": "TEXT",
+      "NUMERIC": "NUMERIC"
+    }
+  }
+}

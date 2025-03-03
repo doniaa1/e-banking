@@ -1,0 +1,9 @@
+{
+  "gatewayApp": {
+    "ActivityType": {
+      "null": "",
+      "PROJECT": "PROJECT",
+      "INVESTMENT": "INVESTMENT"
+    }
+  }
+}

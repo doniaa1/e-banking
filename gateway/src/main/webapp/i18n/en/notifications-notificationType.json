@@ -1,0 +1,9 @@
+{
+  "gatewayApp": {
+    "NotificationType": {
+      "null": "",
+      "ALERT": "ALERT",
+      "MESSAGE": "MESSAGE"
+    }
+  }
+}

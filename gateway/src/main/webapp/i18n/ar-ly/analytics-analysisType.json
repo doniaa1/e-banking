@@ -1,0 +1,9 @@
+{
+  "gatewayApp": {
+    "AnalysisType": {
+      "null": "",
+      "STATISTICAL": "STATISTICAL",
+      "GRAPHICAL": "GRAPHICAL"
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "gatewayApp": {
+    "notificationsNotification": {
+      "home": {
+        "title": "Notifications",
+        "refreshListLabel": "تحديث القائمة",
+        "createLabel": "إنشاء Notification جديد",
+        "createOrEditLabel": "إنشاء أو تعديل Notification",
+        "notFound": "لم يتم العثور على Notifications"
+      },
+      "delete": {
+        "question": "هل أنت متأكد أنك تريد حذف Notification {{ id }}؟"
+      },
+      "detail": {
+        "title": "Notification"
+      },
+      "id": "ID",
+      "login": "Login",
+      "title": "Title",
+      "message": "Message",
+      "type": "Type",
+      "channel": "Channel",
+      "sentAt": "Sent At",
+      "isRead": "Is Read",
+      "createdAt": "Created At",
+      "readAt": "Read At"
+    }
+  },
+  "notificationsApp": {
+    "notificationsNotification": {
+      "created": "Notification جديد تم إنشاؤه بالمعرف {{ param }}",
+      "updated": "Notification تم تحديثه بالمعرف {{ param }}",
+      "deleted": "Notification تم حذفه بالمعرف {{ param }}"
+    }
+  }
+}

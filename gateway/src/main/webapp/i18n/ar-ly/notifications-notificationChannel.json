@@ -1,0 +1,9 @@
+{
+  "gatewayApp": {
+    "NotificationChannel": {
+      "null": "",
+      "EMAIL": "EMAIL",
+      "IN_WEPAPP": "IN_WEPAPP"
+    }
+  }
+}

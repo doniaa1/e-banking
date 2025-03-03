@@ -1,0 +1,10 @@
+{
+  "gatewayApp": {
+    "StatusType": {
+      "null": "",
+      "ACTIVE": "ACTIVE",
+      "COMPLETED": "COMPLETED",
+      "CLOSED": "CLOSED"
+    }
+  }
+}

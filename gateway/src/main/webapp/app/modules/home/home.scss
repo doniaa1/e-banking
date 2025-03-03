@@ -1,0 +1,364 @@
+.home-container {
+  padding: 20px;
+  text-align: center;
+}
+
+/* ============================= */
+/* Hero Section Styles */
+/* ============================= */
+.hero-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 90vh; /* ضبط ارتفاع مناسب */
+  color: white;
+  position: relative; /* لضمان تناسق النص والتعتيم */
+  border-radius: 20px; /* حواف دائرية ناعمة */
+  margin-bottom: 40px;
+  overflow: hidden;
+
+  /* Slick Carousel Custom Styles */
+  .slick-slider {
+    width: 100%;
+    height: 100%;
+
+    .slick-dots {
+      bottom: 15px;
+
+      li button:before {
+        font-size: 14px;
+        color: #ffffff; /* لون النقاط الافتراضية */
+      }
+
+      li.slick-active button:before {
+        color: #ff6600; /* لون النقاط النشطة */
+      }
+    }
+
+    .slick-prev,
+    .slick-next {
+      z-index: 10;
+    }
+
+    .slick-prev:before,
+    .slick-next:before {
+      font-size: 20px;
+      color: #ffffff; /* لون الأسهم */
+    }
+  }
+
+  /* تحسين الصور داخل الكاروسل */
+  .carousel-image {
+    background: rgba(0, 0, 0, 0.32); /* تغميق الصورة */
+    width: 100%; /* عرض الصورة */
+    height: 500px; /* ضبط ارتفاع مناسب */
+    object-fit: cover; /* لضبط عرض الصورة دون تشويه */
+    border-radius: 12px; /* حواف الصور */
+    transition: transform 0.3s ease, filter 0.3s ease;
+
+    &:hover {
+      transform: scale(1.02); /* تكبير طفيف عند التمرير */
+    }
+  }
+}
+
+.hero-text {
+  position: absolute; /* النص فوق الصورة */
+  z-index: 2; /* النص يظهر فوق الصور */
+  text-align: center;
+  padding: 20px 30px; /* مساحة داخلية حول النص */
+  border-radius: 10px; /* حواف ناعمة للنص */
+  background: rgba(0, 0, 0, 0.6); /* خلفية سوداء نصف شفافة */
+  color: #ffffff; /* لون النص */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* إضافة ظل لتحسين المظهر */
+
+  h1 {
+    font-size: 3.5rem; /* حجم العنوان */
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #ffffff; /* لون النص أبيض */
+  }
+
+  p {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+    color: #ffffff; /* لون النص أبيض */
+  }
+}
+
+.cta-buttons .btn {
+  margin: 10px;
+  padding: 12px 30px;
+  font-size: 1.2rem;
+  transition: all 0.3s ease;
+}
+
+.cta-buttons .btn-primary {
+  background-color: #ff6600;
+  border: none;
+  box-shadow: 0px 4px 10px rgba(255, 102, 0, 0.4);
+}
+
+.cta-buttons .btn-primary:hover {
+  background-color: #cc5200;
+}
+
+.cta-buttons .btn-secondary {
+  background-color: #004080;
+  border: none;
+  box-shadow: 0px 4px 10px rgba(0, 64, 128, 0.4);
+}
+
+.cta-buttons .btn-secondary:hover {
+  background-color: #003366;
+}
+
+
+/* ============================= */
+/* Core Services Section Styles */
+/* ============================= */
+.services-section {
+  padding: 60px 20px;
+  text-align: center;
+  background: #f9f9f9;
+  border-top: 2px solid #e9ecef;
+  margin-top: 40px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+}
+
+.section-title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 30px;
+  color: #333;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.service-item {
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin: 20px;
+  transition: all 0.3s ease;
+}
+
+.service-item h3 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #007bff;
+  margin-bottom: 10px;
+  text-transform: capitalize;
+}
+
+.service-item p {
+  font-size: 1rem;
+  color: #555;
+  line-height: 1.6;
+}
+
+.service-item:hover {
+  background: #f1f4f9;
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.services-section .row {
+  margin-top: 20px;
+  justify-content: center;
+}
+.service-icon {
+  margin-bottom: 10px;
+}
+
+.service-icon img {
+  width: 40px; /* حدد الحجم المطلوب للصور */
+  height: 40px;
+  object-fit: contain; /* لضمان الحفاظ على نسب الصورة */
+}
+
+/* ============================= */
+/* Vision Section Styles */
+/* ============================= */
+.vision-section {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding: 30px; /* زيادة الحشو لتوفير مساحة أكثر للقسم */
+  background: #f3f8ff; /* لون خلفية أكثر لطفًا */
+  border-radius: 15px; /* زوايا دائرية أكبر لتحسين الشكل */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); /* ظل أقوى قليلاً لإبراز القسم */
+
+  .section-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 25px; /* زيادة المسافة أسفل العنوان */
+    color: #002752;
+    text-align: center;
+    text-transform: uppercase; /* جعل النص بأحرف كبيرة */
+    letter-spacing: 1px; /* زيادة التباعد بين الأحرف */
+  }
+
+  p {
+    font-size: 1.2rem;
+    color: #555;
+    line-height: 1.8;
+    text-align: center; /* ضبط النص ليتماشى بشكل جيد */
+    margin: 10px 0; /* إضافة تباعد أعلى وأسفل النص */
+  }
+
+  .vision-image {
+    text-align: center;
+    margin-bottom: 25px; /* زيادة المسافة أسفل الصورة */
+
+    img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 25px; /* زوايا دائرية أكبر للصورة */
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* تحسين الظل لإبراز الصورة */
+      border: 4px solid #ffffff; /* إطار أبيض للصورة */
+      transition: transform 0.3s ease, box-shadow 0.3s ease; /* إضافة تأثير عند التمرير */
+    }
+
+    img:hover {
+      transform: scale(1.05); /* تكبير الصورة عند التمرير */
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3); /* زيادة الظل عند التمرير */
+    }
+  }
+}
+///////////////////////////////////////////
+.contact-us-section {
+  padding: 60px 20px;
+  background-color: #f9f9f9;
+  text-align: center;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  margin: 20px auto;
+  max-width: 1200px;
+
+  .section-title {
+    font-size: 2.5rem;
+    color: #004080;
+    margin-bottom: 20px;
+  }
+
+  .section-description {
+    font-size: 1.2rem;
+    color: #666;
+    margin-bottom: 40px;
+  }
+
+  .contact-container {
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+    justify-content: space-between;
+
+    @media (max-width: 768px) {
+      flex-direction: column;
+    }
+
+    .left-column {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+
+      .image-container {
+        .contact-image {
+          width: 100%;
+          height: auto;
+          border-radius: 12px;
+          box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+      }
+
+      .contact-info {
+        background-color: #ffffff;
+        padding: 20px;
+        border-radius: 12px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        text-align: left;
+
+        h3 {
+          font-size: 1.8rem;
+          color: #004080;
+          margin-bottom: 20px;
+        }
+
+        p {
+          display: flex;
+          align-items: center;
+          font-size: 1rem;
+          color: #333;
+          margin: 10px 0;
+
+          i {
+            font-size: 1.5rem;
+            color: #ff6600;
+            margin-right: 10px;
+          }
+        }
+      }
+    }
+
+    .right-column {
+      flex: 1;
+      background-color: #ffffff;
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+
+      .contact-form {
+        h3 {
+          font-size: 1.8rem;
+          color: #004080;
+          margin-bottom: 20px;
+        }
+
+        .form-group {
+          margin-bottom: 20px;
+
+          label {
+            font-size: 1rem;
+            color: #666;
+          }
+
+          .form-control {
+            width: 100%;
+            padding: 10px;
+            font-size: 1rem;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            margin-top: 5px;
+
+            &:focus {
+              outline: none;
+              border-color: #004080;
+              box-shadow: 0 0 8px rgba(0, 64, 128, 0.2);
+            }
+          }
+
+          textarea.form-control {
+            resize: none;
+          }
+        }
+
+        .btn-primary {
+          background-color: #ff6600;
+          border: none;
+          padding: 10px 20px;
+          font-size: 1.2rem;
+          border-radius: 8px;
+          transition: background-color 0.3s ease;
+
+          &:hover {
+            background-color: #cc5200;
+          }
+        }
+      }
+    }
+  }
+}

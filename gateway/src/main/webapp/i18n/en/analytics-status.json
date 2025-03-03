@@ -1,0 +1,10 @@
+{
+  "gatewayApp": {
+    "Status": {
+      "null": "",
+      "ACTIVE": "ACTIVE",
+      "ARCHIVED": "ARCHIVED",
+      "PENDING": "PENDING"
+    }
+  }
+}

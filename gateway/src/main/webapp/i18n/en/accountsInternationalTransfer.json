@@ -1,0 +1,36 @@
+{
+  "gatewayApp": {
+    "accountsInternationalTransfer": {
+      "home": {
+        "title": "International Transfers",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new International Transfer",
+        "createOrEditLabel": "Create or edit a International Transfer",
+        "notFound": "No International Transfers found"
+      },
+      "delete": {
+        "question": "Are you sure you want to delete International Transfer {{ id }}?"
+      },
+      "detail": {
+        "title": "International Transfer"
+      },
+      "id": "ID",
+      "senderAccountNumber": "Sender Account Number",
+      "recipientIban": "Recipient Iban",
+      "swiftCode": "Swift Code",
+      "recipientName": "Recipient Name",
+      "amount": "Amount",
+      "currency": "Currency",
+      "transactionDate": "Transaction Date",
+      "description": "Description",
+      "bankAccount": "Bank Account"
+    }
+  },
+  "accountsApp": {
+    "accountsInternationalTransfer": {
+      "created": "A new International Transfer is created with identifier {{ param }}",
+      "updated": "A International Transfer is updated with identifier {{ param }}",
+      "deleted": "A International Transfer is deleted with identifier {{ param }}"
+    }
+  }
+}

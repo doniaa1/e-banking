@@ -1,0 +1,35 @@
+{
+  "gatewayApp": {
+    "accountsLocalTransfer": {
+      "home": {
+        "title": "Local Transfers",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Local Transfer",
+        "createOrEditLabel": "Create or edit a Local Transfer",
+        "notFound": "No Local Transfers found"
+      },
+      "delete": {
+        "question": "Are you sure you want to delete Local Transfer {{ id }}?"
+      },
+      "detail": {
+        "title": "Local Transfer"
+      },
+      "id": "ID",
+      "senderAccountNumber": "Sender Account Number",
+      "recipientAccountNumber": "Recipient Account Number",
+      "recipientBankName": "Recipient Bank Name",
+      "recipientBankBranch": "Recipient Bank Branch",
+      "amount": "Amount",
+      "transactionDate": "Transaction Date",
+      "description": "Description",
+      "bankAccount": "Bank Account"
+    }
+  },
+  "accountsApp": {
+    "accountsLocalTransfer": {
+      "created": "A new Local Transfer is created with identifier {{ param }}",
+      "updated": "A Local Transfer is updated with identifier {{ param }}",
+      "deleted": "A Local Transfer is deleted with identifier {{ param }}"
+    }
+  }
+}

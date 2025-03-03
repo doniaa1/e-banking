@@ -1,0 +1,44 @@
+{
+  "gatewayApp": {
+    "investmentsInvestmentActivity": {
+      "home": {
+        "title": "Investment Activities",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Investment Activity",
+        "createOrEditLabel": "Create or edit a Investment Activity",
+        "notFound": "No Investment Activities found"
+      },
+      "delete": {
+        "question": "Are you sure you want to delete Investment Activity {{ id }}?"
+      },
+      "detail": {
+        "title": "Investment Activity"
+      },
+      "id": "ID",
+      "investmentType": "Investment Type",
+      "activityType": "Activity Type",
+      "projectName": "Project Name",
+      "description": "Description",
+      "location": "Location",
+      "targetAmount": "Target Amount",
+      "currentAmount": "Current Amount",
+      "bondIssuer": "Bond Issuer",
+      "activityDate": "Activity Date",
+      "activityAmount": "Activity Amount",
+      "status": "Status",
+      "riskLevel": "Risk Level",
+      "login": "Login",
+      "createdBy": "Created By",
+      "createdDate": "Created Date",
+      "lastModifiedBy": "Last Modified By",
+      "lastModifiedDate": "Last Modified Date"
+    }
+  },
+  "investmentsApp": {
+    "investmentsInvestmentActivity": {
+      "created": "A new Investment Activity is created with identifier {{ param }}",
+      "updated": "A Investment Activity is updated with identifier {{ param }}",
+      "deleted": "A Investment Activity is deleted with identifier {{ param }}"
+    }
+  }
+}

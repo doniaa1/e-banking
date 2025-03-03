@@ -1,0 +1,35 @@
+{
+  "gatewayApp": {
+    "analyticsDataCollection": {
+      "home": {
+        "title": "Data Collections",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Data Collection",
+        "createOrEditLabel": "Create or edit a Data Collection",
+        "notFound": "No Data Collections found"
+      },
+      "delete": {
+        "question": "Are you sure you want to delete Data Collection {{ id }}?"
+      },
+      "detail": {
+        "title": "Data Collection"
+      },
+      "id": "ID",
+      "login": "Login",
+      "name": "Name",
+      "source": "Source",
+      "collectedAt": "Collected At",
+      "dataType": "Data Type",
+      "status": "Status",
+      "description": "Description",
+      "analysisReport": "Analysis Report"
+    }
+  },
+  "analyticsApp": {
+    "analyticsDataCollection": {
+      "created": "A new Data Collection is created with identifier {{ param }}",
+      "updated": "A Data Collection is updated with identifier {{ param }}",
+      "deleted": "A Data Collection is deleted with identifier {{ param }}"
+    }
+  }
+}
