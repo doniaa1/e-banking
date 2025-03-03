@@ -1,0 +1,95 @@
+{
+  "annotations": {
+    "changelogDate": "20241203222012"
+  },
+  "clientRootFolder": "investments",
+  "databaseType": "sql",
+  "fields": [
+    {
+      "fieldName": "investmentType",
+      "fieldType": "InvestmentType",
+      "fieldValidateRules": ["required"],
+      "fieldValues": "REAL_ESTATE,BONDS"
+    },
+    {
+      "fieldName": "activityType",
+      "fieldType": "ActivityType",
+      "fieldValidateRules": ["required"],
+      "fieldValues": "PROJECT,INVESTMENT"
+    },
+    {
+      "fieldName": "projectName",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "description",
+      "fieldType": "TextBlob"
+    },
+    {
+      "fieldName": "location",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "targetAmount",
+      "fieldType": "BigDecimal"
+    },
+    {
+      "fieldName": "currentAmount",
+      "fieldType": "BigDecimal"
+    },
+    {
+      "fieldName": "bondIssuer",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "activityDate",
+      "fieldType": "Instant",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "activityAmount",
+      "fieldType": "BigDecimal"
+    },
+    {
+      "fieldName": "status",
+      "fieldType": "StatusType",
+      "fieldValues": "ACTIVE,COMPLETED,CLOSED"
+    },
+    {
+      "fieldName": "riskLevel",
+      "fieldType": "RiskLevel",
+      "fieldValidateRules": ["required"],
+      "fieldValues": "LOW,MEDIUM,HIGH"
+    },
+    {
+      "fieldName": "login",
+      "fieldType": "String",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "createdBy",
+      "fieldType": "String",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "createdDate",
+      "fieldType": "Instant",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "lastModifiedBy",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "lastModifiedDate",
+      "fieldType": "Instant"
+    }
+  ],
+  "microserviceName": "investments",
+  "name": "InvestmentActivity",
+  "pagination": "pagination",
+  "readOnly": false,
+  "relationships": [],
+  "searchEngine": "no",
+  "service": "no"
+}

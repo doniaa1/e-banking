@@ -1,0 +1,63 @@
+{
+  "annotations": {
+    "changelogDate": "20241205201100"
+  },
+  "clientRootFolder": "analytics",
+  "databaseType": "sql",
+  "fields": [
+    {
+      "fieldName": "title",
+      "fieldType": "String",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "createdAt",
+      "fieldType": "Instant",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "analysisType",
+      "fieldType": "AnalysisType",
+      "fieldValidateRules": ["required"],
+      "fieldValues": "STATISTICAL,GRAPHICAL"
+    },
+    {
+      "fieldName": "reportType",
+      "fieldType": "ReportType",
+      "fieldValidateRules": ["required"],
+      "fieldValues": "PAYMENT,INVESTMENT,ACCOUNTS"
+    },
+    {
+      "fieldName": "generatedBy",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "content",
+      "fieldType": "TextBlob",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "status",
+      "fieldType": "Status",
+      "fieldValidateRules": ["required"],
+      "fieldValues": "ACTIVE,ARCHIVED,PENDING"
+    }
+  ],
+  "microserviceName": "analytics",
+  "name": "AnalysisReport",
+  "pagination": "pagination",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityField": "name",
+      "otherEntityName": "dataCollection",
+      "otherEntityRelationshipName": "analysisReport",
+      "relationshipName": "dataCollection",
+      "relationshipSide": "left",
+      "relationshipType": "many-to-one",
+      "relationshipValidateRules": ["required"]
+    }
+  ],
+  "searchEngine": "no",
+  "service": "no"
+}
